@@ -1,6 +1,6 @@
 def calculate_bmi(weight, height_cm):
     """Calculate the Body Mass Index (BMI)."""
-    height_m = height_cm / 100  # Convert cm to meters
+    height_m = height_cm / 100
     bmi = weight / (height_m ** 2)
     return round(bmi, 2)
 
